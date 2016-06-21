@@ -9,7 +9,6 @@
 
 	var today = new Date();
 
-// You can read all about the Date object here:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 
@@ -35,4 +34,4 @@
 
 // 4. Now we have everything we need to create our HTML string. Use jQuery's .html() method.
 
-	$("#todayDate").html(date + " " + months[month] + year);
+	$("#todayDate").html(date + ", " + months[month] + year);
