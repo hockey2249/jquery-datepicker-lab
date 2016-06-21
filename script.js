@@ -33,11 +33,11 @@ $("#todayDate").html(m_names[curr_month] + ". " + curr_date + ", " + curr_year);
 // 8. Outside of the daysLeft() function, we need to call daysLeft() using jQuery's .on('change', ____) event handler.
 // Implement the function so it logs the value of `a` every time you click a date on the calendar.
 		
-	// 	$("#datepicker").on('click')function(){
-	// 	daysLeft();
-	// 	console.log(a);
-
-	// });
+		$("#datepicker").on('click'function(){
+		daysLeft();
+		console.log(a);
+});
+		
 
 
 
