@@ -23,6 +23,10 @@ $("#datepicker").on("change", function(){
     $("#result").html(resultString);
 });
 
+// 16. Capture the input that is in the element with class ‘endDate’.  Save this as a variable."
+
+	var endDate = localStorage.setItem("endDate", $("#endDate").val());
+
 
 // 16. STRETCH Challenges:
 
