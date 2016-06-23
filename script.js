@@ -7,7 +7,7 @@ var curr_year = today.getFullYear();
 
 $("#todayDate").html(m_names[curr_month] + ". " + curr_date + ", " + curr_year);
 $("#datepicker").datepicker();
-var diffDaysDisplay = "";
+var diffDaysDisplay = " ";
 
 function daysLeft() {
 	var a = $( "#datepicker" ).datepicker('getDate').getTime();
